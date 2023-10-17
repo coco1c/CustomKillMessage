@@ -1,0 +1,10 @@
+com\coco\mc\LitemcKillMessage.class
+com\coco\mc\util\ColorUtil.class
+com\coco\mc\listener\PlayerDeathListener.class
+com\coco\mc\util\ItemStackAdapter.class
+com\coco\mc\LitemcKillMessage$1.class
+com\coco\mc\listener\PlayerDeathListener$1.class
+com\coco\mc\util\ConfigUtil.class
+com\coco\mc\data\PlayerData.class
+com\coco\mc\command\MainCommand.class
+com\coco\mc\util\ReflectionUtil.class

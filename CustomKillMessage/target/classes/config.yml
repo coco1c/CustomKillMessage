@@ -1,0 +1,50 @@
+messages:
+  player-needed: "&cYou need to in-game to execute this command!"
+  no-permission: "&cYou can't do that!"
+  invalid-command: "&cThe command format is invalid!"
+  command-success: "&aThe command have been successfully executed!"
+  player-not-found: "&cThat player is offline or invalid!"
+  banned-words: "&cYou can't use that words for kill message!"
+  cooldown: "&cPlease wait before using the command again!"
+  player_kill_with_hand: "hand"
+  too-big-text: "&cYou can't set that big kill message!"
+  help: "1. &6{killer} is the placeholder used in kill message to denote the killer's name/n/n2. &6{victim} is the name of victim (who was killed)/n/n3. &6{weapon} is the name of weapon used to kill (if any)/n/n4. &6{other_weapons} is the name of the cause (ex. Fall Damage or Void)"
+
+max-msg-length: 100
+permissions:
+  player-command: "killmsg.set.player"
+  killmsg-default: "killmsg.set.default"
+  kill-msg-others: "killmsg.set.others"
+  reload: "killmsg.reload"
+  help: "killmsg.help"
+
+default-kill-msg:
+  killed-by-other-player: "&c{victim} was killed by {killer} with weapon {weapon}"
+  explosion: "&c{victim} was blown up!"
+  fall-damage: "&c{victim} fell and died!"
+  drowning: "&c{victim} drowned!"
+  suffocation: "&c{victim} suffocated!"
+  lava-damage: "&c{victim} was damaged by fire!"
+  cactus-damage: "&c{victim} was damaged by cactus!"
+  poisoning: "&c{victim} was poisoned!"
+  starvation: "&c{victim} was starved!"
+  falling-block: "&c{victim} was damaged by falling block!"
+  magic: "&c{victim} was damaged by magic!"
+  wither: "&c{victim} was damaged by wither!"
+  slain-by-mob: "&c{victim} was killed by {killer}!"
+  hit-wall: "&c{victim} hit the wall hard!"
+  unknown: "&c{victim} died."
+  end-crystal: "&c{killer} killed {victim} with end crystal!"
+  anchor: "&c{killer} killed {victim} with respawn anchor!"
+# Does not apply to console
+cooldown:
+  player-command: 3 # in seconds
+
+banned-words:
+  - "fuck"
+  - "sex"
+  - "shit"
+  - "damn"
+  - "bitch"
+  - "asshole"
+  - "ass"
